@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3xq258');
+  src:  url('fonts/icomoon.eot?3xq258#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3xq258') format('truetype'),
+    url('fonts/icomoon.woff?3xq258') format('woff'),
+    url('fonts/icomoon.svg?3xq258#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-pin:before {
+  content: "\e047";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\20";
+}
+.icon-facebook-f:before {
+  content: "\20";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
